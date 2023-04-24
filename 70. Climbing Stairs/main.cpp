@@ -9,8 +9,8 @@ public:
         if(n >= 2)
             i++;
         if(n >= 1)
-            i++;
-        return i + climbStairs(n-1);
+            i += 2;
+        return i + climbStairs(n-2);
     }
 };
 
